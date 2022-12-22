@@ -17,7 +17,7 @@ LOGGER_ID = int(getenv("LOGGER_ID"))
 
 BOT_NAME = getenv("BOT_NAME", "Krishna Music")
 OWNER_ID = list(
-    map(int, getenv("OWNER_ID", "5955517342")
+    map(int, getenv("OWNER_ID", "5955517342").split())
 )
     
 SUPPORT_CHANNEL = getenv(
