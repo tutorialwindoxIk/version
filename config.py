@@ -19,6 +19,7 @@ BOT_NAME = getenv("BOT_NAME", "Krishna Music")
 OWNER_ID = list(
     map(int, getenv("OWNER_ID", "5955517342")
 )
+    
 SUPPORT_CHANNEL = getenv(
     "SUPPORT_CHANNEL", "https://t.me/frienddd_zoneee")
 SUPPORT_GROUP = getenv(
