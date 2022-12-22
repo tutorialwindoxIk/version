@@ -15,17 +15,17 @@ MONGO_DB_URI = getenv("MONGO_DB_URI", None)
 
 LOGGER_ID = int(getenv("LOGGER_ID"))
 
-BOT_NAME = getenv("BOT_NAME", "ғᴀʟʟᴇɴ ダ ᴍᴜsɪᴄ")
+BOT_NAME = getenv("BOT_NAME", "Krishna Music")
 OWNER_ID = list(
-    map(int, getenv("OWNER_ID", "1356469075").split())
+    map(int, getenv("OWNER_ID", "5955517342")
 )
 SUPPORT_CHANNEL = getenv(
-    "SUPPORT_CHANNEL", "https://t.me/FallenAssociation")
+    "SUPPORT_CHANNEL", "https://t.me/frienddd_zoneee")
 SUPPORT_GROUP = getenv(
-    "SUPPORT_GROUP", "https://t.me/DevilsHeavenMF")
+    "SUPPORT_GROUP", "https://t.me/frienddd_zoneee")
 
 DURATION_LIMIT_MIN = int(
-    getenv("DURATION_LIMIT", "120")
+    getenv("DURATION_LIMIT", "180")
 )
 SONG_DOWNLOAD_DURATION = int(
     getenv("SONG_DOWNLOAD_DURATION_LIMIT", "180")
@@ -37,7 +37,7 @@ HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/AnonymousR1025/Nottyy",
+    "https://github.com/RocksKrishnaBot/KrishnaXMusic",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 
