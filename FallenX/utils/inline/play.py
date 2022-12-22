@@ -345,7 +345,7 @@ def panel_markup_1(_, videoid, chat_id):
 close_keyboard = InlineKeyboardMarkup( 
             [
                 [
-                    InlineKeyboardButton(
+            InlineKeyboardButton(
                 text="✯ ᴄʟᴏsᴇ ✯", callback_data="close"
             )
         ],
