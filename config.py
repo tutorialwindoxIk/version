@@ -15,7 +15,7 @@ MONGO_DB_URI = getenv("MONGO_DB_URI", None)
 
 LOGGER_ID = int(getenv("LOGGER_ID"))
 
-BOT_NAME = getenv("BOT_NAME", "Krishna Music")
+BOT_NAME = getenv("BOT_NAME", "ᴋʀɪsʜɴᴀ ᴍᴜsɪᴄ")
 OWNER_ID = list(
     map(int, getenv("OWNER_ID", "5955517342").split())
 )
@@ -96,11 +96,11 @@ clean = {}
 
 autoclean = []
 
-START_IMG_URL = getenv("START_IMG_URL", "https://telegra.ph/file/56d1760224589ee370186.jpg")
+START_IMG_URL = getenv("START_IMG_URL", "https://telegra.ph/file/e320ba0abe214c0e14042.jpg")
 
 PING_IMG_URL = getenv(
     "PING_IMG_URL",
-    "https://telegra.ph/file/56d1760224589ee370186.jpg",
+    "https://telegra.ph/file/ad95de2efbdf7d3a0fc03.jpg",
 )
 
 PLAYLIST_IMG_URL = "https://te.legra.ph/file/4ec5ae4381dffb039b4ef.jpg"
