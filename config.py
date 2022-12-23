@@ -13,9 +13,9 @@ BOT_TOKEN = getenv("BOT_TOKEN")
 
 MONGO_DB_URI = getenv("MONGO_DB_URI", None)
 
-LOGGER_ID = int(getenv("LOGGER_ID"))
+LOGGER_ID = int(getenv("LOGGER_ID", "-1001631416406"))
 
-BOT_NAME = getenv("BOT_NAME", "ᴋʀɪsʜɴᴀ ᴍᴜsɪᴄ")
+BOT_NAME = getenv("BOT_NAME", "ALISHA MUSIC")
 OWNER_ID = list(
     map(int, getenv("OWNER_ID", "5955517342").split())
 )
@@ -38,7 +38,7 @@ HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/RocksKrishnaBot/KrishnaXMusic",
+    "https://github.com/Team-Alisha/AlishaG",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 
