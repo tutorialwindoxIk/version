@@ -2,14 +2,14 @@
     ᴀ ᴛᴇʟᴇɢʀᴀᴍ ᴍᴜsɪᴄ+ᴠɪᴅᴇᴏ ʙᴏᴛ ᴡʀɪᴛᴛᴇɴ ɪɴ ᴘʏᴛʜᴏɴ ᴜsɪɴɢ ᴘʏʀᴏɢʀᴀᴍ ᴀɴᴅ ᴘʏ-ᴛɢᴄᴀʟʟs 
 </h4>
 <p align="center">
-    <a href="https://t.me/incorrect_krishna"> sᴜᴘᴘᴏʀᴛ ᴄʜᴀɴɴᴇʟ </a> •
-    <a href="https://t.me/frienddd_zoneee"> sᴜᴘᴘᴏʀᴛ ᴄʜᴀᴛ </a> 
+    <a href="https://t.me/Alisha_Support"> sᴜᴘᴘᴏʀᴛ ᴄʜᴀɴɴᴇʟ </a> •
+    <a href="https://t.me/Sad_shayari_lovers"> sᴜᴘᴘᴏʀᴛ ᴄʜᴀᴛ </a> 
 </p>
     
-# ᴋʀɪsʜɴᴀ ᴍᴜsɪᴄ ʙᴏᴛ
+#  Alisha Music Bot
 
 ᴀ ᴘᴏᴡᴇʀғᴜʟ ᴛᴇʟᴇɢʀᴀᴍ ᴍᴜsɪᴄ+ᴠɪᴅᴇᴏ ʙᴏᴛ ʙʏ ᴡʜɪᴄʜ ʏᴏᴜ ᴄᴀɴ sᴛʀᴇᴀᴍ sᴏɴɢs, ᴠɪᴅᴇᴏs ᴀɴᴅ ᴇᴠᴇɴ ʟɪᴠᴇ sᴛʀᴇᴀᴍs ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴄᴀʟʟs ᴠɪᴀ ᴠᴀʀɪᴏᴜs sᴏᴜʀᴄᴇs. ɪᴛ ᴄᴏᴍᴇs ᴡɪᴛʜ  ᴜsᴇʀ ғʀɪᴇɴᴅʟʏ ᴀɴᴅ ᴇᴀsʏ ᴛᴏ ᴜsᴇ ʏᴇᴛ ᴇʟᴇɢᴀɴᴛ ғᴇᴀᴛᴜʀᴇs.
 
 ## ᴏᴡɴᴇʀ
 
-[ʀᴏᴄᴋs ᴋʀɪsʜɴᴀ](https://t.me/itz_rocks_krishna) 
+[ʀᴏᴄᴋs ᴋʀɪsʜɴᴀ](https://t.me/VeNom_HaiN_HuM) 
