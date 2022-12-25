@@ -12,4 +12,4 @@
 
 ## ᴏᴡɴᴇʀ
 
-[ʀᴏᴄᴋs ᴋʀɪsʜɴᴀ](https://t.me/VeNom_HaiN_HuM) 
+[ABHIMAMYU SINGH RANAWAT](https://t.me/VeNom_HaiN_HuM) 
