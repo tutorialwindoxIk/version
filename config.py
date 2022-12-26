@@ -17,7 +17,7 @@ LOGGER_ID = int(getenv("LOGGER_ID", "-1001631416406"))
 
 BOT_NAME = getenv("BOT_NAME", "ALISHA MUSIC")
 OWNER_ID = list(
-    map(int, getenv("OWNER_ID", "5955517342").split())
+    map(int, getenv("OWNER_ID", "5441658106").split())
 )
     
 SUPPORT_CHANNEL = getenv(
@@ -44,7 +44,7 @@ UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 
 GIT_TOKEN = getenv("GIT_TOKEN", None)
 
-AUTO_LEAVING_ASSISTANT = getenv("AUTO_LEAVING_ASSISTANT", "False")
+AUTO_LEAVING_ASSISTANT = getenv("AUTO_LEAVING_ASSISTANT", "True")
 
 AUTO_LEAVE_ASSISTANT_TIME = int(
     getenv("ASSISTANT_LEAVE_TIME", "5400")
