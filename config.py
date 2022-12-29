@@ -21,12 +21,12 @@ OWNER_ID = list(
 )
     
 SUPPORT_CHANNEL = getenv(
-    "SUPPORT_CHANNEL", "https://t.me/frienddd_zoneee")
+    "SUPPORT_CHANNEL", "https://t.me/Alisha_Support ")
 SUPPORT_GROUP = getenv(
-    "SUPPORT_GROUP", "https://t.me/frienddd_zoneee")
+    "SUPPORT_GROUP", "https://t.me/Sad_shayari_lovers")
 
 DURATION_LIMIT_MIN = int(
-    getenv("DURATION_LIMIT", "180")
+    getenv("DURATION_LIMIT", "900")
 )
 SONG_DOWNLOAD_DURATION = int(
     getenv("SONG_DOWNLOAD_DURATION_LIMIT", "180")
@@ -38,7 +38,7 @@ HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/Team-Alisha/AlishaGg",
+    "https://github.com/Team-Alisha/FallenMusic",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 
