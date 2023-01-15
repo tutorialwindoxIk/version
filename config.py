@@ -7,11 +7,11 @@ from pyrogram import filters
 
 load_dotenv()
 
-API_ID = int(getenv("API_ID"))
-API_HASH = getenv("API_HASH")
-BOT_TOKEN = getenv("BOT_TOKEN")
+API_ID = int(getenv("API_ID", "10597052"))
+API_HASH = getenv("API_HASH", "2fd331fde4a6359a9cf0422cfbb4c900")
+BOT_TOKEN = getenv("BOT_TOKEN", "5207167635:AAFNgo38L3oRPfDgjpB-ox1z5B6yb5eUeNU")
 
-MONGO_DB_URI = getenv("MONGO_DB_URI", None)
+MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://AsadAli:AsadAli@cluster0.3ejv7.mongodb.net/myFirstDatabase?retryWrites=true&w=majority")
 
 LOGGER_ID = int(getenv("LOGGER_ID", "-1001631416406"))
 
@@ -78,7 +78,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(
 )
 
 
-STRING1 = getenv("STRING_SESSION", None)
+STRING1 = getenv("STRING_SESSION", "BQDC1rFyyT2t-MdcT8VfFtiqr4jpZK8oLtWkoff4BSyHKhkYkuTzJ6vjnsTdFvo7YJPP7rhOOg-D2DTbwfhAn3Of14GfsnTV6QfjhR56mbKp83gx7k_QhUPdpwVKDH-_AEj-wuFR9X_lmcK9LNJZvxRQYSHJ6KXoferam2yiHYUOP7NQkFYTt9F0ZozVcvg7ZwMTC5LCdnn_iCpCQDq2ZfaAsxFzOdCsmEg6DvWVKraN1MQX7A-wYI8eEdmXpU_SkD5eUQNsOuYTD36t9k740IGYxUEjndzeukQm-5Mx_bVzhr9KAXBiCD6q4zN60MLIbFkbFMWzWzI85UO8eKDhtYxTAAAAAWHrRD8A")
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
