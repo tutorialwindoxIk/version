@@ -50,7 +50,7 @@ async def stats_global(client, message: Message, _):
     )
     await message.reply_photo(
         photo=config.STATS_IMG_URL,
-        caption=_["gstats_11"].format(config.MUSIC_BOT_NAME),
+        caption=_["gstats_11"].format(config.BOT_NAME),
         reply_markup=upl,
     )
 
@@ -188,7 +188,7 @@ async def top_users_ten(client, CallbackQuery: CallbackQuery, _):
             temp = (
                 _["gstats_4"].format(
                     queries,
-                    config.MUSIC_BOT_NAME,
+                    config.BOT_NAME,
                     len(stats),
                     total_count,
                     limit,
@@ -433,7 +433,7 @@ async def back_buttons(client, CallbackQuery, _):
         )
         med = InputMediaPhoto(
             media=config.GLOBAL_IMG_URL,
-            caption=_["gstats_10"].format(config.MUSIC_BOT_NAME),
+            caption=_["gstats_10"].format(config.BOT_NAME),
         )
         try:
             await CallbackQuery.edit_message_media(
@@ -442,7 +442,7 @@ async def back_buttons(client, CallbackQuery, _):
         except MessageIdInvalid:
             await CallbackQuery.message.reply_photo(
                 photo=config.GLOBAL_IMG_URL,
-                caption=_["gstats_10"].format(config.MUSIC_BOT_NAME),
+                caption=_["gstats_10"].format(config.BOT_NAME),
                 reply_markup=upl,
             )
     if command == "GETSTATS":
@@ -452,7 +452,7 @@ async def back_buttons(client, CallbackQuery, _):
         )
         med = InputMediaPhoto(
             media=config.STATS_IMG_URL,
-            caption=_["gstats_11"].format(config.MUSIC_BOT_NAME),
+            caption=_["gstats_11"].format(config.BOT_NAME),
         )
         try:
             await CallbackQuery.edit_message_media(
@@ -461,6 +461,6 @@ async def back_buttons(client, CallbackQuery, _):
         except MessageIdInvalid:
             await CallbackQuery.message.reply_photo(
                 photo=config.STATS_IMG_URL,
-                caption=_["gstats_11"].format(config.MUSIC_BOT_NAME),
+                caption=_["gstats_11"].format(config.BOT_NAME),
                 reply_markup=upl,
             )
