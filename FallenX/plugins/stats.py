@@ -107,7 +107,7 @@ async def gstats_global(client, message: Message, _):
         vidid,
     ) = await YouTube.details(videoid, True)
     title = title.title()
-    final = f"Top Most Played Track on {MUSIC_BOT_NAME}\n\n**Title:** {title}\n\nPlayed** {co} **times"
+    final = f"Top Most Played Track on {BOT_NAME}\n\n**Title:** {title}\n\nPlayed** {co} **times"
     upl = get_stats_markup(
         _, True if message.from_user.id in SUDOERS else False
     )
@@ -227,7 +227,7 @@ async def top_users_ten(client, CallbackQuery: CallbackQuery, _):
             limit += 1
             msg += f"🔗`{extract}` played {count} times on bot.\n\n"
         temp = (
-            _["gstats_5"].format(limit, MUSIC_BOT_NAME)
+            _["gstats_5"].format(limit, BOT_NAME)
             if what == "Chats"
             else _["gstats_6"].format(limit, MUSIC_BOT_NAME)
         )
