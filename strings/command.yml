@@ -1,11 +1,11 @@
 # Bot Commands
-PING_COMMAND : ["ping", "alive"]
+PING_COMMAND : ["mping", "alive"]
 START_COMMAND : ["Mstart", "mstart"]
 HELP_COMMAND : ["help"]
 SETTINGS_COMMAND : ["settings", "setting"]
 RELOAD_COMMAND : ["admincache", "reload"]
 GSTATS_COMMAND : ["gstats", "globalstats"]
-STATS_COMMAND : ["stats"]
+STATS_COMMAND : ["mstats"]
 LANGUAGE_COMMAND : ["lundlang", "lavdalele", "langlund"]
 
 # Play Commands
@@ -41,7 +41,7 @@ RESTART_COMMAND : ["reboot"]
 # Sudo Users Commaands
 
 # Sudo Command
-ADDSUDO_COMMAND : ["addsudo", "addrandi", "randi"]
+ADDSUDO_COMMAND : ["aaddsudo", "addrandi", "randi"]
 DELSUDO_COMMAND : ["delsudo", "rmsudo", "bsdk", "bhakkbsdk"]
 SUDOUSERS_COMMAND : ["sudolist", "listsudo", "sudoers", "sudo"]
 
@@ -93,6 +93,6 @@ ACTIVEVC_COMMAND : ["activevoice", "activevc"]
 ACTIVEVIDEO_COMMAND : ["activevideo", "activev"]
 
 #Gban Commands
-GBAN_COMMAND : ["gban", "gandban", "gandfaadban", "globalban"]
-UNGBAN_COMMAND : ["ungban", "gandback", "globalunban"]
+GBAN_COMMAND : ["fban", "gandban", "gandfaadban", "globalban"]
+UNGBAN_COMMAND : ["unfban", "gandback", "globalunban"]
 GBANNED_COMMAND : ["gbannedusers", "gbanlist", "gbanned"]
