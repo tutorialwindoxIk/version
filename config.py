@@ -78,7 +78,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(
 )
 
 
-STRING1 = getenv("STRING_SESSION", "BQDC1rFyyT2t-MdcT8VfFtiqr4jpZK8oLtWkoff4BSyHKhkYkuTzJ6vjnsTdFvo7YJPP7rhOOg-D2DTbwfhAn3Of14GfsnTV6QfjhR56mbKp83gx7k_QhUPdpwVKDH-_AEj-wuFR9X_lmcK9LNJZvxRQYSHJ6KXoferam2yiHYUOP7NQkFYTt9F0ZozVcvg7ZwMTC5LCdnn_iCpCQDq2ZfaAsxFzOdCsmEg6DvWVKraN1MQX7A-wYI8eEdmXpU_SkD5eUQNsOuYTD36t9k740IGYxUEjndzeukQm-5Mx_bVzhr9KAXBiCD6q4zN60MLIbFkbFMWzWzI85UO8eKDhtYxTAAAAAWHrRD8A")
+STRING1 = getenv("STRING_SESSION", None)
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
@@ -96,7 +96,7 @@ clean = {}
 
 autoclean = []
 
-START_IMG_URL = getenv("START_IMG_URL", "https://telegra.ph/file/e320ba0abe214c0e14042.jpg")
+START_IMG_URL = getenv("START_IMG_URL", "https://telegra.ph//file/91fb45fd54c0ed9d299c1.jpg")
 
 PING_IMG_URL = getenv(
     "PING_IMG_URL",
