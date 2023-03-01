@@ -12,13 +12,6 @@ from youtubesearchpython.__future__ import VideosSearch
 from config import YOUTUBE_IMG_URL
 from FallenX import app
 
-
-BG_IMG = ("https://telegra.ph/file/8d2bf852a53bd13fb8037.jpg",
-           "https://telegra.ph/file/6f43301a3e43d20f7906a.jpg",
-           "https://telegra.ph/file/c71c9940f27143f1d6b7b.jpg",
-           "https://telegra.ph/file/93aa52512ccd256888b28.jpg",
-           "https://telegra.ph/file/0d7fd638c3c2ea21176a1.jpg",)
-
 def changeImageSize(maxWidth, maxHeight, image):
     widthRatio = maxWidth / image.size[0]
     heightRatio = maxHeight / image.size[1]
@@ -88,8 +81,10 @@ async def gen_thumb(videoid, user_id):
         x = f.resize((107, 107))
 
         youtube = Image.open(f"cache/thumb{videoid}.png")
-        random_image_file = random.choice(BG_IMG)
-        bg = Image.open(random_image_file)
+        alexa = 'FallenX/assets/Images'
+        bg_img = [os.alexa.join(alexa, f) for f in os.listdir(alexa) if f.endswith('.png')]
+        final_img = random.choice(bg_img)
+        bg = Image.open(final_img)
         image1 = changeImageSize(1280, 720, youtube)
         image2 = image1.convert("RGBA")
         background = image2.filter(filter=ImageFilter.BoxBlur(30))
@@ -229,8 +224,10 @@ async def gen_qthumb(videoid, user_id):
         x = f.resize((107, 107))
 
         youtube = Image.open(f"cache/thumb{videoid}.png")
-        random_image_file = random.choice(BG_IMG)
-        bg = Image.open(random_image_file)
+        alexa = 'FallenX/assets/Images'
+        bg_img = [os.alexa.join(alexa, f) for f in os.listdir(alexa) if f.endswith('.png')]
+        final_img = random.choice(bg_img)
+        bg = Image.open(final_img)
         image1 = changeImageSize(1280, 720, youtube)
         image2 = image1.convert("RGBA")
         background = image2.filter(filter=ImageFilter.BoxBlur(30))
