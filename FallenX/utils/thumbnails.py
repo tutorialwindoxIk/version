@@ -125,7 +125,7 @@ async def gen_thumb(videoid, user_id):
         try:
             draw.text(
                 (450, 25),
-                f"ALISHA PLAYING OP",
+                f"ALISHA MUSIC",
                 fill="white",
                 stroke_width=3,
                 stroke_fill="yellow",
@@ -138,7 +138,7 @@ async def gen_thumb(videoid, user_id):
                     f"{para[0]}",
                     fill="white",
                     stroke_width=1,
-                    stroke_fill="yellow",
+                    stroke_fill="red",
                     font=font,
                 )
             if para[1]:
@@ -148,7 +148,7 @@ async def gen_thumb(videoid, user_id):
                     f"{para[1]}",
                     fill="white",
                     stroke_width=1,
-                    stroke_fill="yellow",
+                    stroke_fill="red",
                     font=font,
                 )
         except:
