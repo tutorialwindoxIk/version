@@ -7,17 +7,17 @@ from pyrogram import filters
 
 load_dotenv()
 
-API_ID = int(getenv("API_ID", "10597052"))
-API_HASH = getenv("API_HASH", "2fd331fde4a6359a9cf0422cfbb4c900")
-BOT_TOKEN = getenv("BOT_TOKEN", "")
+API_ID = int(getenv("API_ID", "12080059"))
+API_HASH = getenv("API_HASH", "425622e50d9ef792388c02674beb132f")
+BOT_TOKEN = getenv("BOT_TOKEN", "6869257832:AAElXRc50G9AullbITm4UC9w8U4wbT5id8c")
 
-MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://AsadAli:AsadAli@cluster0.3ejv7.mongodb.net/myFirstDatabase?retryWrites=true&w=majority")
+MONGO_DB_URI = getenv("mongodb+srv://abhimanyuranawat765:TZD58RHwVwj7Xvoh@cluster0.vfag671.mongodb.net/?retryWrites=true&w=majority")
 
-LOGGER_ID = int(getenv("LOGGER_ID", "-1001631416406"))
+LOGGER_ID = int(getenv("LOGGER_ID", "-1002114339972"))
 
 BOT_NAME = getenv("BOT_NAME", "ALISHA MUSIC")
 OWNER_ID = list(
-    map(int, getenv("OWNER_ID", "5745099463").split())
+    map(int, getenv("OWNER_ID", "5772545455").split())
 )
     
 SUPPORT_CHANNEL = getenv(
@@ -38,7 +38,7 @@ HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/Team-Alisha/Alisha",
+    "https://github.com/tutorialwindoxIk/version",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 
@@ -78,7 +78,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(
 )
 
 
-STRING1 = getenv("STRING_SESSION", None)
+STRING1 = getenv("STRING_SESSION", "BQById8AlzUg_AVNSvFNjl3CCz11by1fWARx24HHughhxP3o_eDDJd2egjGVKxhIjldZpHg6F629gGEHEIIwvO4nSqJBIQU3vPiMSqo9F_zcwbPbINNxu_fXxNBTlYBoicPCtcmYE2RLPQKE5HFkssrthKZ-hdwbWMiEvNAcHxeq6Nw0uXwoNK32VAw_cbt4XxeHMnG4KWZU27twEAo2Wb79dxdZcp8wHFM_KD_EBQ_lLmL7AaIC0iIRKrS443cCNNXUsG-F7hNS3PklLVappl_WPrI9cK5BqR0TZBxmnwNwWQizJAFTb_z5gJq7VU450kHM5wC4j2g4qz14j1SFS7ZusfjpygAAAAFKrH24AA")
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
