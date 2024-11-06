@@ -11,7 +11,7 @@ API_ID = int(getenv("API_ID", "12080059"))
 API_HASH = getenv("API_HASH", "425622e50d9ef792388c02674beb132f")
 BOT_TOKEN = getenv("BOT_TOKEN", "6869257832:AAElXRc50G9AullbITm4UC9w8U4wbT5id8c")
 
-MONGO_DB_URI = getenv("mongodb+srv://abhimanyuranawat765:TZD58RHwVwj7Xvoh@cluster0.vfag671.mongodb.net/?retryWrites=true&w=majority")
+MONGO_DB_URI = getenv("mongodb+srv://Somu:Somu@somu.xbkiklu.mongodb.net/?retryWrites=true&w=majority&appName=Somu")
 
 LOGGER_ID = int(getenv("LOGGER_ID", "-1002114339972"))
 
